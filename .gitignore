@@ -1,0 +1,32 @@
+# Ignore Drupal core files
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Ignore Drupal generated files
+/web/sites/*/files/
+/web/sites/*/settings.php
+/web/sites/*/services.yml
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Drush configuration files
+/drush/sites/
+/drush/contrib/
+/drush/vendor/
+
+# Ignore environment-specific files
+/.env
+/web/sites/*/settings.local.php
+
+# Ignore temporary files
+/web/sites/*/tmp/
+
+# Ignore logs
+/web/sites/*/logs/
+/.editorconfig
+/.gitattributes
+.idea/
