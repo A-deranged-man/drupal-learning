@@ -13,7 +13,8 @@
         "composer/installers": "^2.0",
         "drupal/core-composer-scaffold": "^10.1",
         "drupal/core-project-message": "^10.1",
-        "drupal/core-recommended": "^10.1"
+        "drupal/core-recommended": "^10.1",
+        "drupal/tailwindcss": "^5.0.0-alpha3"
     }
     ,
     "require-dev": {
